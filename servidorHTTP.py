@@ -76,3 +76,5 @@ else:
     pid = os.fork()
     if pid == 0:
         run_server()
+    else:
+        run()
