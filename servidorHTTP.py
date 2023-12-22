@@ -75,4 +75,4 @@ if os.name == 'nt':
 else:
     pid = os.fork()
     if pid == 0:
-        runServer()
+        run_server()
