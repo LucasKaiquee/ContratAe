@@ -32,8 +32,8 @@ class Http_class(SimpleHTTPRequestHandler):
         content_length = int(self.headers['Content-Length'])
         json_data = self.rfile.read(content_length)  # -> Recebendo o dado via HTTP    
 
-        data_cliente = json.loads(json_data.decode('utf-8')) # -> Lendo os dados JSON 
-        print(data_cliente)
+        # data_cliente = json.loads(json_data.decode('utf-8')) # -> Lendo os dados JSON 
+        # print(data_cliente)
         # Tratamento do protocolo no servidor
         response_server = self.server.protocol_handler(json_data)
         # Enviar resposta
@@ -70,8 +70,8 @@ def run(server_class=CustomHTTPServer, handler_class=Http_class, porta_http=8000
     httpd.serve_forever()
 
 if os.name == 'nt':
-        run_server()
-        threading.Thread(target=run).start()
+        threading.Thread(target=run_server).start()
+        run()
 else:
     pid = os.fork()
     if pid == 0:

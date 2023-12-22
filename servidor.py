@@ -503,4 +503,4 @@ def run_server():
         t1.start()
 
 # Retornando os dados da tabela candidato para a hashtable-candidato
-run_server()
+# run_server()
