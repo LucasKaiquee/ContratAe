@@ -90,13 +90,13 @@ python cliente.py [ip_do_servidor]
 
 Este projeto foi desenvolvido por:
 
-- Kaique Lucas: [GitHub](https://github.com/LucasKaiquee)<br>
+- Lucas Kaique: [GitHub](https://github.com/LucasKaiquee)<br>
   email :  [kaique.lucas@academico.ifpb.edu.br](mailto:kaique.lucas@academico.ifpb.edu.br)
   
-- Fernando Albuquerque: [GitHub](https://github.com/LuizFernando12)<br>
+- Luiz Fernando: [GitHub](https://github.com/LuizFernando12)<br>
   email: [fernando.albuquerque@academico.ifpb.edu.br](mailto:fernando.albuquerque@academico.ifpb.edu.br)
   
-- Bruno Marcelo: [GitHub](https://github.com/marceelobruno)<br>
+- Marcelo Bruno: [GitHub](https://github.com/marceelobruno)<br>
   email: [bruno.marcelo@academico.ifpb.edu.br](mailto:bruno.marcelo@academico.ifpb.edu.br) 
 
 ## Contribuição:
